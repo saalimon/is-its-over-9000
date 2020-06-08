@@ -1,0 +1,21 @@
+{
+  "name": "is-its-over-9000",
+  "version": "0.1.1",
+  "description": "Return true if given number is over 9000 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "count",
+    "filter",
+    "integer",
+    "is",
+    "9000",
+    "over",
+    "numeric",
+    "string"
+  ],
+  "author": "Niti Buesamae",
+  "license": "MIT"
+}
