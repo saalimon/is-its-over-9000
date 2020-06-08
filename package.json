@@ -1,6 +1,6 @@
 {
   "name": "is-its-over-9000",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Return true if given number is over 9000 ",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "string"
   ],
   "author": "Niti Buesamae",
-  "license": "MIT",
+  "license": "WTFPL",
   "homepage": "https://github.com/saalimon/is-its-over-9000"
 
 }
