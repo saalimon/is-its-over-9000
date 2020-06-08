@@ -8,7 +8,7 @@ module.exports = (num) => {
     if (typeof num === 'string' && num.trim() !== '') {
         return Number.isFinite ? Number.isFinite(+num) : isFinite(+num);
     }
-    if (!isNumber(num)) {
+    if (!isNumber) {
         throw new TypeError('expected a number');
     }
     if (!Number.isSafeInteger(num)) {
