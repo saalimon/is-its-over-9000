@@ -1,6 +1,6 @@
 {
   "name": "is-its-over-9000",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Return true if given number is over 9000 ",
   "main": "index.js",
   "scripts": {
