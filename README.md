@@ -15,7 +15,10 @@ To install the latest version on npm globally (might require `sudo`;
 
 ## usage
     var isItsOver9000 = require("is-its-over-9000")
-    var num = 9999
-    var result = isItsOver9000(num)
-    console.log(result)
+    var num1 = 9999;
+    var num2 = 8000;
+    var result1 = isItsOver9000(num1); // return true
+    var result2 = isItsOver9000(num2); // return false
+    console.log(result1);
+    console.log(result2);
 

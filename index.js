@@ -6,7 +6,7 @@ module.exports = (num) => {
         isNumber = num - num === 0;
     }
     if (typeof num === 'string' && num.trim() !== '') {
-        return Number.isFinite ? Number.isFinite(+num) : isFinite(+num);
+        isNumber = Number.isFinite ? Number.isFinite(+num) : isFinite(+num);
     }
     if (!isNumber) {
         throw new TypeError('expected a number');
