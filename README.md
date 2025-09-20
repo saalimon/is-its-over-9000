@@ -1,4 +1,7 @@
 # is-its-over-9000
+
+![Meme](./meme.webp)
+
 Return true if given number is over 9000
 
 Installation and Usage
@@ -13,12 +16,23 @@ To install the latest version on npm globally (might require `sudo`;
     npm install -i is-its-over-9000
 
 
-## usage
-    var isItsOver9000 = require("is-its-over-9000")
-    var num1 = 9999;
-    var num2 = 8000;
-    var result1 = isItsOver9000(num1); // return true
-    var result2 = isItsOver9000(num2); // return false
-    console.log(result1);
-    console.log(result2);
+## Usage
+
+```js
+const isItsOver9000 = require("is-its-over-9000");
+
+const num1 = 9999;
+const num2 = 8000;
+
+console.log(isItsOver9000(num1)); // true
+console.log(isItsOver9000(num2)); // false
+```
+
+## Testing
+
+Run the test suite:
+
+```bash
+npm test
+```
 

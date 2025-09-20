@@ -3,16 +3,16 @@
 module.exports = (num) => {
     let isNumber = false;
     if (typeof num === 'number') {
-        isNumber = num - num === 0;
+        isNumber = !Number.isNaN(num);
     }
     if (typeof num === 'string' && num.trim() !== '') {
-        isNumber = Number.isFinite ? Number.isFinite(+num) : isFinite(+num);
+        isNumber = Number.isFinite(+num);
     }
     if (!isNumber) {
-        throw new TypeError('expected a number');
+        throw new TypeError('Expected a finite number or numeric string');
     }
-    if (!Number.isSafeInteger(num)) {
+    if (!Number.isSafeInteger(+num)) {
         throw new Error('value exceeds maximum safe integer');
     }
-    return num > 9000;
+    return Number(num) > 9000;
 }

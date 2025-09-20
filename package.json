@@ -4,7 +4,7 @@
   "description": "Return true if given number is over 9000 ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test test.js"
   },
   "keywords": [
     "count",
@@ -16,7 +16,7 @@
     "numeric",
     "string"
   ],
-  "author": "Niti Buesamae",
+  "author": "saalimon",
   "license": "WTFPL",
   "homepage": "https://github.com/saalimon/is-its-over-9000"
 
